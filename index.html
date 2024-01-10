@@ -129,6 +129,19 @@
 		 <div class="shou"><img src="imgg/IMG_1525-7c1c36132126.PNG" width="50" alt="1" style="position:absolute;left:330px;"></div>
 	 <div class="shou"><img src="imgg/IMG_1525-7c1c36132126.PNG" width="50" alt="2" style="position:absolute;left:900px;"></div>
 	  <div class="shou"><img src="imgg/IMG_1525-7c1c36132126.PNG" width="50" alt="3" style="position:absolute;right:190px;"></div>
+	    <script>
+		    // 获取所有具有"class"为"shou"的元素
+const shouElements = document.getElementsByClassName("shou");
+
+// 遍历每个元素并添加点击事件监听器
+Array.from(shouElements).forEach((element) => {
+  element.addEventListener("click", () => {
+    // 跳转到同一个页面
+    window.location.href = "https://keriaohh.github.io/7898/";
+  });
+});
+
+	    </script>
   </body>
 </html>
 
